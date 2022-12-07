@@ -1,4 +1,4 @@
-# Lacos II - Exercícios
+#A018 - Funcões de Array
 
 ### Setup do projeto no Git
 
@@ -14,13 +14,13 @@
       <summary>Esqueceu como se faz?</summary>
       <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Fclone-repo.png?alt=media&token=d8b3c101-c6d4-4371-b018-ae4edec7e34c" alt="Garanta que o repositório é seu-usuário/nome-do-repo e faça o clone"/>
    </details>
--  [ ] Crie uma nova branch: git checkout -b `<turma-nome-sobrenome-a016>`.
+-  [ ] Crie uma nova branch: git checkout -b `<turma-nome-sobrenome-a018>`.
    <details>
       <summary>Entenda o comando `git checkout -b`</summary>
       <p>Na aula vocês aprenderam a criar uma branch (`git branch "nome-branch"`) e se mover até ela (`git checkout "nome-branch"`). Porém, o git permite utilizar contrações para realizar mais de ação com um único comando, que é o caso do (`git checkout -b "nome-branch"`), que cria e automaticamente se move para a branch recém criada.</p>
    </details>
--  [ ] Implemente o projeto na branch `<turma-nome-sobrenome-a016>`. Lembre-se de fazer commits.
--  [ ] Dê push nos commits: git push origin `<turma-nome-sobrenome-a016>`.
+-  [ ] Implemente o projeto na branch `<turma-nome-sobrenome-a018>`. Lembre-se de fazer commits.
+-  [ ] Dê push nos commits: git push origin `<turma-nome-sobrenome-a018>`.
 
 **Siga os passos abaixo ao terminar seu projeto, para enviá-lo:**
 
@@ -33,18 +33,16 @@ Cada uma das pastas possui um arquivo .html, que está linkado ao arquivo .js qu
 
 ### O que você precisa saber e praticar desta aula?
 
-- [ ] item 1 - for+for e for+if
-- [ ] item 2 - for...in
-- [ ] item 3 - for...of
+- [ ] item 1 - Callbacks
+- [ ] item 2 - `map()`
+- [ ] item 3 - `filter()`
 
 Cada pasta deste repo possui um README.md com o enunciado do exercício e um template para que você possa começar.
 
 ### Informações úteis sobre o assunto:
 
-[Aula 08 - Estruturas de repeticão - Lógica de Programação para Iniciantes | Labenu](https://www.youtube.com/watch?v=gUGQ4FYleQo)
+[callbacks | MDN](https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function)
 
-[for | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for)
+[map() | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
-[for...in | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...in)
-
-[for...of | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+[filter() | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)

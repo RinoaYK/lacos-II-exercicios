@@ -1,10 +1,15 @@
 # Exercício 1
 
-Um analista quer conseguir ver quantos gols cada um de seus 5 atacantes marcou nas últimas 5 temporadas, e quer que você construa um código que mostre isso.
+Crie duas funcões que recebem como parâmetro um objeto (o objeto está pronto no arquivo JS).
+1. A primeira deve retornar o objeto, alterando as propriedades dele para que os **valores** deste objeto fiquem em CAIXA ALTA.
+saída esperada:
 
-Crie um laco `for` que itere pelo array deixado no arquivo `script.js`, e em sequência itere pelo array que existe dentro do primeiro array. Você deve imprimir a temporada, e o número de gols, como no exemplo abaixo:
+`{ nome: 'ASTRODEV', profissao: 'DEV DAS ESTRELAS', username: 'ASTRODEV_LABENU', senha: 'MELHORDETODOS'}`
 
-```bash
-Jogador 1: 13, 15, 25, 34, 35
-Jogador 2: 30, 48, 30, 12, 47
-```
+2. A segunda deve retornar os valores do objeto como texto corrido.
+
+3. Em seguida, crie uma funcão que recebe o objeto e um callback como parâmetros. A funcão deve passar o objeto como argumento da funcão de callback, e em seguida imprimir o valor retornado.
+
+Chame a funcão 3, passando como argumentos o objeto passado no arquivo `script.js`, e a funcão 1.
+Repita o processo para a funcão 2
+

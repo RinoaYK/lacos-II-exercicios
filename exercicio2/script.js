@@ -1,37 +1,22 @@
 // # Exercício 2
-
-// Crie um programa que peça um input de número para o usuário. Com este número, o código deve imprimir a **tabuada** do número, de 1 a 10.
-
-// **Utilize o for...in para resolver**
-
-// Exemplo com entrada **`7`**:
-// ```jsx
-// 7
-// 14
-// 21
-// 28
-// 35
-// 42
-// 49
-// 56
-// 63
-// 70
-// ```
-
-const num = +(prompt("Qual número vc quer visualizar a tabuada?"));
-console.log("Tabuada do número", `${num}:`);
-const tabuada = []
-
-for(let i = 1; i <= 10; i++){
-    tabuada.push(i)
-    }
-for (let count in tabuada){
-    console.log(num+" x "+tabuada[count]+" = " + (num*tabuada[count]))
+// Crie um array de números que contenha 8 números.
+function numRandom(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
-// const num2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const array1 = []
 
-// for (let count in num2){
-//     console.log(num+" x "+num2[count]+" = " + (num*num2[count]))
-// }
+for (let i = 0 ; i < 8 ; i++){
+  array1.push(numRandom(1,10))
+}
+console.log ("Array original:\n",array1)
+
+// Depois disso, utilize este array para criar duas funcões de array `map()`:
+// 1. A primeira deve retornar um novo array contendo os números múltiplicados por 3, Crie uma `const triplos`, e guarde o valor do array nesta const;
+const triplos = array1.map(num => num*3)
+console.log("Array x3:\n",triplos)
+
+// 2. A segunda deve retornar um novo array contendo os números divididos por 2. Crie uma `const metades`, e guarde o valor do array nesta const;
+const metades = array1.map(num => num/2)
+console.log("Array ÷2:\n",metades)
 
